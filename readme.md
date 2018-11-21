@@ -16,6 +16,15 @@ This project was made possible by [solub](https://discourse.processing.org/t/dis
   // Construct New vLines  (Max Height (z), Min Height (z), Colour (HSB (H - Value)))
   vGroups.get(0).construct(100, -100, 0);
 ```
+#### Animation
+```java
+  for (vGroup v : vGroups) {
+    // Animate (grow) lines from origin
+    v.animate();
+    // Show completed lines from origin
+    // v.show();
+  }
+```
 ### Development
 ----
 Please do report the bugs you encounter!

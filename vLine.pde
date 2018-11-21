@@ -13,7 +13,7 @@ class vLine {
     pushStyle();
     colorMode(HSB, 360, 100, 100);
     for (int i = 0; i < pts.size() - 1; i++) {
-      int h = int(map(i, 0, pts.size(), 0, 65));
+      int h = int(map(i, 0, pts.size(), hue, hue+65));
       stroke(h, 83, 97);
       PVector point = pts.get(i);
       PVector next = pts.get(i+1);

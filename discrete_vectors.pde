@@ -23,7 +23,7 @@ void draw() {
   pushMatrix();
   translate(-500, -250);
   for (vGroup v : vGroups) {
-    v.animate();
+    v.show();
   }
 
   popMatrix();
