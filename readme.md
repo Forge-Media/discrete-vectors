@@ -23,6 +23,6 @@ If you'd like to improve this project feel free to start a pull request, it will
 
 ### By Jeremy Paton
 ----
-Copyright (c) Jeremy Paton 2018
+Copyright © Jeremy Paton 2018
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
