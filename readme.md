@@ -7,12 +7,12 @@ This project was made possible by [solub](https://discourse.processing.org/t/dis
 ### Discrete Vectors
 ----
 #### vGroup Options
-```
+```processing
   // New vGroup (#Lines, #Points, Factor, Offset, Spacing)
   vGroups.add(new vGroup(100, 400, 0.05, 1, 5));
 ```
 #### vLine Construct Options
-```
+```processing
   // Construct New vLines  (Max Height (z), Min Height (z), Colour (HSB (H - Value)))
   vGroups.get(0).construct(100, -100, 0);
 ```
